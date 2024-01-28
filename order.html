@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="./nutrition.html">
+                <li>Nutrition Facts</li>
+            </a>
+            <a href="./items.html">
+                <li>Popular Items</li>
+            </a>
+
+            <a href="#">
+                <li>Order Page</li>
+            </a>
+        </ul>
+    </div>
+
+    <header>
+        <b>
+            <h1>Place Your Order!</h1>
+        </b>
+        <p>Enter in your info and we will send your order to you ASAP!</p>
+    </header>
+
+    <br>
+
+    <form action="index.html">
+        <label for="text">Full Name:</label>
+        <input type="text" placeholder="Enter name" />
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email" name="email">
+        <br>
+        <br>
+        <label for="checkbox">Select Items For Your Order:</label><br>
+        <input type="checkbox" name="item1" value="Croissants">
+        <label for="item1"> Croissants</label><br>
+        <input type="checkbox" name="item2" value="Macarons">
+        <label for="item2"> Macarons</label><br>
+        <input type="checkbox" name="item3" value="Cupcakes">
+        <label for="item3"> Cupcakes</label>
+        <br>
+        <br>
+        <label for="quantity">Quantity (1-5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <label for="quantity">dozen</label>
+        <br>
+        <br>
+        <input type="submit" value="Submit Order" />
+    </form>
+</body>
+
+</html>
